@@ -127,6 +127,9 @@ body {
     main
     filter 
 */
+.main__container {
+  margin-bottom: 120px;
+}
 
 .wrapper__filter {
   width: 1128px;
