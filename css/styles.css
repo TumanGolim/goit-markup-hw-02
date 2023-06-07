@@ -61,6 +61,7 @@ body {
 }
 
 .nav__address {
+  font-style: normal;
   display: flex;
   align-items: center;
 }
@@ -122,29 +123,30 @@ body {
 }
 
 .main__heading {
-  font-family: var(--main-font);
-  font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white-bg);
+  color: #ffffff;
 }
 
 .primary__button {
-  color: var(--white-bg);
-  border: none;
-  width: 169px;
-  height: 56px;
-  background: var(--primary-brand);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: var(--main-font);
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.primary__button:hover {
+  background-color: #404bbf;
+}
+
+.primary__button:focus {
+  background-color: #404bbf;
 }
 
 /* END HERO SECTION */
@@ -166,7 +168,27 @@ body {
   width: 264px;
 }
 
-.feature__heading {
+.feature__heading1 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.feature__heading2 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.feature__heading3 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 20px;
@@ -266,25 +288,23 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--primary-brand);
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo-footer.link {
+.link {
   text-decoration: none;
 }
 
 .logo__part2-footer {
   color: #f4f4fd;
+
 }
 
 .footer__text {
-  color: var(--light);
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+   color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .footer__text_container {
